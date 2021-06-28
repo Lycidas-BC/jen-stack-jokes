@@ -7,13 +7,13 @@ Technical Setup
 Client Side Section
     [X] on ready, display all jokes on the DOM below the inputs
     [X] inputs for users to add their own jokes to server data
-    [ ] send new jokes to server
+    [X] send new jokes to server
     [X] receive and display jokes from server
 
 Server Side Section
     [X] GET to send existing jokes to client
-    [ ] POST to receive new jokes from client
-        [ ] add received jokes to list
+    [X] POST to receive new jokes from client
+        [X] add received jokes to list
 
 HTML mockup
     [X]
