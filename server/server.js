@@ -40,3 +40,13 @@ app.use(express.static('server/public'));
 app.listen(PORT, () => {
   console.log('server running on: ', PORT);
 }); // end spin up server
+
+// routes
+
+
+app.get('/jokes', function(req, res) {
+  console.log('Request method: ', req.method);
+  console.log('send:', jokes);
+  // Send a response back;
+  res.send(jokes);
+});
