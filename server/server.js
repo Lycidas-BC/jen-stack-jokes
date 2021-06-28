@@ -42,7 +42,15 @@ app.listen(PORT, () => {
 }); // end spin up server
 
 // routes
+app.post('/jokes', (req, res) => {
+  console.log('in post for jokes', req.body);
 
+  //add new jokes to jokes array
+  jokes.push(req.body)
+
+  // always respond
+  res.sendStatus(201); // 201 is good!
+});
 
 app.get('/jokes', function(req, res) {
   console.log('Request method: ', req.method);

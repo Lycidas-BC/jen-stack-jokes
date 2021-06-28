@@ -5,18 +5,18 @@ Technical Setup
     [ ] add .css?
 
 Client Side Section
-    [ ] on ready, display all jokes on the DOM below the inputs
-    [ ] inputs for users to add their own jokes to server data
+    [X] on ready, display all jokes on the DOM below the inputs
+    [X] inputs for users to add their own jokes to server data
     [ ] send new jokes to server
-    [ ] receive and display jokes from server
+    [X] receive and display jokes from server
 
 Server Side Section
-    [ ] POST existing jokes to client
-    [ ] GET new jokes from client
+    [X] GET to send existing jokes to client
+    [ ] POST to receive new jokes from client
         [ ] add received jokes to list
 
 HTML mockup
-    [ ]
+    [X]
 
 Stretch Goals
     [ ]
